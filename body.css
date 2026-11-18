@@ -1,0 +1,107 @@
+.navbar{
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 90%;
+    max-width: 500px;
+    
+    background-color: #2a2a2a;
+    border-color: aliceblue;
+    padding: 15px 20px;  
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 40px;                  
+    z-index: 1000;
+    border: 2px solid #ffffff;
+}
+.navbar a {
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.start-bereich {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white
+}
+.game-card {
+    max-width: 1200px;
+
+    margin: 0 auto 150px auto;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    overflow: hidden;
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    text-align: left;
+    gap: 100px;
+}
+
+.game-card-blockera { /*Own class, bacause the text is more and needs mor place*/
+    max-width: 1200px;
+    height: 600px;
+    margin: 0 auto 150px auto;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    overflow: hidden;
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    text-align: left;
+    gap: 100px;
+}
+
+.game-info {
+    color: white;
+    flex: 1;
+}
+
+
+.game-image img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    image-rendering: pixelated;
+}
+
+h1{
+    font-size: 90px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+p{
+    font-size: 28px;
+}
