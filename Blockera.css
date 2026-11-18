@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 90%;
+    max-width: 500px;
+    
+    background-color: #2a2a2a;
+    border-color: aliceblue;
+    padding: 15px 20px;  
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 40px;                  
+    z-index: 1000;
+    border: 2px solid #ffffff;
+}
+.navbar a {
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.game{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white
+}
